@@ -1,0 +1,83 @@
+en	bn	type	en_aliases	bn_aliases
+drain	নিষ্কাশন	agronomy		
+harvesting	ফসল কাটা	agronomy		
+irrigation	সেচ	agronomy		
+ratoon	রেটুন	agronomy		
+sowing	বপন	agronomy		
+top dressing	উপরিপ্রয়োগ	agronomy		
+transplanting	চারা রোপণ	agronomy		রোপণ
+yield	ফলন	agronomy		
+approved pesticide	অনুমোদিত কীটনাশক	chemical		
+Carbendazim	কার্বেন্ডাজিম	chemical	carbendazim	কার্বেন্ডাজিম
+fungicide	ছত্রাকনাশক	chemical		
+granular pesticide	দানাদার কীটনাশক	chemical		
+herbicide	আগাছানাশক	chemical		
+Imidacloprid	ইমিডাক্লোপ্রিড	chemical	imidacloprid	ইমিডাক্লোপ্রিড
+pesticide	কীটনাশক	chemical		বালাইনাশক
+pesticide application	কীটনাশক প্রয়োগ	chemical		
+Tricyclazole	ট্রাইসাইক্লাজল	chemical	tricyclazole	ট্রাইসাইক্লাজল|ট্রাইসাইক্লাজোল
+aman rice	আমন	crop		
+aus rice	আউশ	crop		
+boro rice	বোরো	crop		
+Jute	পাট	crop	jute	পাট
+Maize	ভুট্টা	crop	corn|maize	ভুট্টা
+Mango	আম	crop	mango	আম
+panicle	শীষ	crop		
+Potato	আলু	crop	potato	আলু
+Rice	ধান	crop	rice|paddy	ধান|চাল|ভাত|রাইস
+seedbed	বীজতলা	crop		
+tiller	কুশি	crop		
+tiller count	কুশি সংখ্যা	crop		
+tillering	কুশি গজানো	crop		
+Tomato	টমেটো	crop	tomato	টমেটো
+Wheat	গম	crop	wheat	গম
+Bacterial Blight	ব্লাইট	disease	bacterial blight	ব্লাইট|পাতার দাগ রোগ|পাতা পোড়া|ব্যাকটেরিয়াজনিত পাতা পোড়া
+disease	রোগ	disease		
+disease vector	রোগ বাহক	disease		
+fungus	ছত্রাক	disease		
+Late Blight	নাবী ধসা	disease	late blight	নাবী ধসা|আলুর রোগ|নাবি ধ্বসা|নাবী ধ্বসা
+pest and disease	রোগবালাই	disease		
+Rice Blast	ব্লাস্ট রোগ	disease	blast|rice blast	ব্লাস্ট|ব্লাস্ট রোগ
+rice disease	ধান রোগ	disease		
+Sheath Blight	শীথ ব্লাইট	disease	sheath blight	শীথ ব্লাইট
+sheath rot	খোল পচা	disease		
+stem rot	কাণ্ড পচা	disease		
+Tungro	টুংরো	disease	tungro	টুংরো|হলুদ রোগ
+fertilizer	সার	fertilizer		
+fertilizer efficiency	সার কার্যকারিতা	fertilizer		
+MOP (Muriate of Potash)	এমওপি	fertilizer	MOP|muriate of potash	এমওপি|পটাশ
+Organic Compost	জৈব সার	fertilizer	compost|organic fertilizer	জৈব সার|গোবর সার
+TSP (Triple Super Phosphate)	টিএসপি	fertilizer	TSP|triple super phosphate	টিএসপি
+Urea	ইউরিয়া	fertilizer	urea	ইউরিয়া
+urea fertilizer	ইউরিয়া সার	fertilizer		
+zinc sulfate	জিংক সালফেট	fertilizer		
+Aphid	জাব পোকা	pest	aphid	জাব পোকা
+armyworm	লেদা পোকা	pest		
+Brown Planthopper	বাদামি গাছফড়িং	pest	brown planthopper|BPH	বাদামি গাছফড়িং|গাছফড়িং
+case worm	ছাত পোকা	pest		
+green leafhopper	সবুজ পাতাফড়িং	pest		
+hispa beetle	পামরি পোকা	pest		
+insect pests	পোকামাকড়	pest		
+Leaf Roller	পাতা মোড়ানো পোকা	pest	leaf roller	পাতা মোড়ানো পোকা
+pest	পোকা	pest		
+pest and disease complex	পোকামাকড় রোগবালাই	pest		
+pest control	পোকা দমন	pest		
+pest infestation	পোকা আক্রমণ	pest		
+rice bug	গান্ধি পোকা	pest		
+Stem Borer	মাজরা পোকা	pest	stem borer	মাজরা পোকা|মাজরা|মাজ পোকা
+brown spot	বাদামি দাগ	symptom		
+Dead Heart	ডেড হার্ট	symptom	dead heart	ডেড হার্ট|মরা শীষ
+deficiency	অভাব	symptom		
+disease symptom	রোগ লক্ষণ	symptom		
+kresek	ক্রেসেক	symptom		
+Leaf Spots	পাতায় দাগ	symptom	leaf spot|brown spots	পাতায় দাগ|দাগ
+Leaf Yellowing	পাতা হলুদ হওয়া	symptom	yellowing|yellow leaves	পাতা হলুদ|হলুদ পাতা
+sulphur deficiency	গন্ধক অভাব	symptom		
+Wilting	ঢলে পড়া	symptom	wilting|wilt	ঢলে পড়া|গাছ শুকিয়ে যাওয়া
+zinc deficiency	দস্তা অভাব	symptom		
+Neem Oil	নিম তেল	treatment	neem oil|neem	নিম তেল|নিমের তেল
+bigha	বিঘা	unit		
+hectare	হেক্টর	unit		
+grass weed	ঘাস	weed		
+weed	আগাছা	weed		
+weed control	আগাছা দমন	weed		

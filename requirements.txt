@@ -1,0 +1,25 @@
+# AgriBanglaT5 — domain adaptation of BanglaT5 NMT for agricultural EN->BN.
+# Local (CPU) work: corpus build, Bijoy recovery, glossary, evaluation.
+# Training runs on Kaggle GPU (see train/train_lora.py).
+
+transformers>=4.40.0
+torch>=2.1.0
+datasets>=2.18.0
+peft>=0.10.0
+accelerate>=0.29.0
+
+# Translation backbone + normalization
+sentencepiece>=0.1.99
+bnunicodenormalizer>=0.1.5
+
+# Corpus mining / filtering
+sentence-transformers>=2.6.0     # LaBSE parallel-sentence filter
+
+# Evaluation metrics
+sacrebleu>=2.4.0
+unbabel-comet>=2.2.0
+
+# Bijoy/legacy-font PDF recovery
+pymupdf>=1.24.0
+pytesseract>=0.3.10
+Pillow>=10.0.0

@@ -1,0 +1,725 @@
+[
+  {
+    "en": "Rice",
+    "bn": "ধান",
+    "type": "crop",
+    "en_aliases": [
+      "rice",
+      "paddy"
+    ],
+    "bn_aliases": [
+      "ধান",
+      "চাল",
+      "ভাত",
+      "রাইস"
+    ]
+  },
+  {
+    "en": "Wheat",
+    "bn": "গম",
+    "type": "crop",
+    "en_aliases": [
+      "wheat"
+    ],
+    "bn_aliases": [
+      "গম"
+    ]
+  },
+  {
+    "en": "Jute",
+    "bn": "পাট",
+    "type": "crop",
+    "en_aliases": [
+      "jute"
+    ],
+    "bn_aliases": [
+      "পাট"
+    ]
+  },
+  {
+    "en": "Potato",
+    "bn": "আলু",
+    "type": "crop",
+    "en_aliases": [
+      "potato"
+    ],
+    "bn_aliases": [
+      "আলু"
+    ]
+  },
+  {
+    "en": "Mango",
+    "bn": "আম",
+    "type": "crop",
+    "en_aliases": [
+      "mango"
+    ],
+    "bn_aliases": [
+      "আম"
+    ]
+  },
+  {
+    "en": "Tomato",
+    "bn": "টমেটো",
+    "type": "crop",
+    "en_aliases": [
+      "tomato"
+    ],
+    "bn_aliases": [
+      "টমেটো"
+    ]
+  },
+  {
+    "en": "Maize",
+    "bn": "ভুট্টা",
+    "type": "crop",
+    "en_aliases": [
+      "corn",
+      "maize"
+    ],
+    "bn_aliases": [
+      "ভুট্টা"
+    ]
+  },
+  {
+    "en": "Rice Blast",
+    "bn": "ব্লাস্ট রোগ",
+    "type": "disease",
+    "en_aliases": [
+      "blast",
+      "rice blast"
+    ],
+    "bn_aliases": [
+      "ব্লাস্ট",
+      "ব্লাস্ট রোগ"
+    ]
+  },
+  {
+    "en": "Bacterial Blight",
+    "bn": "ব্লাইট",
+    "type": "disease",
+    "en_aliases": [
+      "bacterial blight"
+    ],
+    "bn_aliases": [
+      "ব্লাইট",
+      "পাতার দাগ রোগ",
+      "পাতা পোড়া",
+      "ব্যাকটেরিয়াজনিত পাতা পোড়া"
+    ]
+  },
+  {
+    "en": "Sheath Blight",
+    "bn": "শীথ ব্লাইট",
+    "type": "disease",
+    "en_aliases": [
+      "sheath blight"
+    ],
+    "bn_aliases": [
+      "শীথ ব্লাইট"
+    ]
+  },
+  {
+    "en": "Tungro",
+    "bn": "টুংরো",
+    "type": "disease",
+    "en_aliases": [
+      "tungro"
+    ],
+    "bn_aliases": [
+      "টুংরো",
+      "হলুদ রোগ"
+    ]
+  },
+  {
+    "en": "Late Blight",
+    "bn": "নাবী ধসা",
+    "type": "disease",
+    "en_aliases": [
+      "late blight"
+    ],
+    "bn_aliases": [
+      "নাবী ধসা",
+      "আলুর রোগ",
+      "নাবি ধ্বসা",
+      "নাবী ধ্বসা"
+    ]
+  },
+  {
+    "en": "Stem Borer",
+    "bn": "মাজরা পোকা",
+    "type": "pest",
+    "en_aliases": [
+      "stem borer"
+    ],
+    "bn_aliases": [
+      "মাজরা পোকা",
+      "মাজরা",
+      "মাজ পোকা"
+    ]
+  },
+  {
+    "en": "Brown Planthopper",
+    "bn": "বাদামি গাছফড়িং",
+    "type": "pest",
+    "en_aliases": [
+      "brown planthopper",
+      "BPH"
+    ],
+    "bn_aliases": [
+      "বাদামি গাছফড়িং",
+      "গাছফড়িং"
+    ]
+  },
+  {
+    "en": "Leaf Roller",
+    "bn": "পাতা মোড়ানো পোকা",
+    "type": "pest",
+    "en_aliases": [
+      "leaf roller"
+    ],
+    "bn_aliases": [
+      "পাতা মোড়ানো পোকা"
+    ]
+  },
+  {
+    "en": "Aphid",
+    "bn": "জাব পোকা",
+    "type": "pest",
+    "en_aliases": [
+      "aphid"
+    ],
+    "bn_aliases": [
+      "জাব পোকা"
+    ]
+  },
+  {
+    "en": "Leaf Yellowing",
+    "bn": "পাতা হলুদ হওয়া",
+    "type": "symptom",
+    "en_aliases": [
+      "yellowing",
+      "yellow leaves"
+    ],
+    "bn_aliases": [
+      "পাতা হলুদ",
+      "হলুদ পাতা"
+    ]
+  },
+  {
+    "en": "Leaf Spots",
+    "bn": "পাতায় দাগ",
+    "type": "symptom",
+    "en_aliases": [
+      "leaf spot",
+      "brown spots"
+    ],
+    "bn_aliases": [
+      "পাতায় দাগ",
+      "দাগ"
+    ]
+  },
+  {
+    "en": "Wilting",
+    "bn": "ঢলে পড়া",
+    "type": "symptom",
+    "en_aliases": [
+      "wilting",
+      "wilt"
+    ],
+    "bn_aliases": [
+      "ঢলে পড়া",
+      "গাছ শুকিয়ে যাওয়া"
+    ]
+  },
+  {
+    "en": "Dead Heart",
+    "bn": "ডেড হার্ট",
+    "type": "symptom",
+    "en_aliases": [
+      "dead heart"
+    ],
+    "bn_aliases": [
+      "ডেড হার্ট",
+      "মরা শীষ"
+    ]
+  },
+  {
+    "en": "Tricyclazole",
+    "bn": "ট্রাইসাইক্লাজল",
+    "type": "chemical",
+    "en_aliases": [
+      "tricyclazole"
+    ],
+    "bn_aliases": [
+      "ট্রাইসাইক্লাজল",
+      "ট্রাইসাইক্লাজোল"
+    ]
+  },
+  {
+    "en": "Carbendazim",
+    "bn": "কার্বেন্ডাজিম",
+    "type": "chemical",
+    "en_aliases": [
+      "carbendazim"
+    ],
+    "bn_aliases": [
+      "কার্বেন্ডাজিম"
+    ]
+  },
+  {
+    "en": "Imidacloprid",
+    "bn": "ইমিডাক্লোপ্রিড",
+    "type": "chemical",
+    "en_aliases": [
+      "imidacloprid"
+    ],
+    "bn_aliases": [
+      "ইমিডাক্লোপ্রিড"
+    ]
+  },
+  {
+    "en": "Neem Oil",
+    "bn": "নিম তেল",
+    "type": "treatment",
+    "en_aliases": [
+      "neem oil",
+      "neem"
+    ],
+    "bn_aliases": [
+      "নিম তেল",
+      "নিমের তেল"
+    ]
+  },
+  {
+    "en": "Urea",
+    "bn": "ইউরিয়া",
+    "type": "fertilizer",
+    "en_aliases": [
+      "urea"
+    ],
+    "bn_aliases": [
+      "ইউরিয়া"
+    ]
+  },
+  {
+    "en": "TSP (Triple Super Phosphate)",
+    "bn": "টিএসপি",
+    "type": "fertilizer",
+    "en_aliases": [
+      "TSP",
+      "triple super phosphate"
+    ],
+    "bn_aliases": [
+      "টিএসপি"
+    ]
+  },
+  {
+    "en": "MOP (Muriate of Potash)",
+    "bn": "এমওপি",
+    "type": "fertilizer",
+    "en_aliases": [
+      "MOP",
+      "muriate of potash"
+    ],
+    "bn_aliases": [
+      "এমওপি",
+      "পটাশ"
+    ]
+  },
+  {
+    "en": "Organic Compost",
+    "bn": "জৈব সার",
+    "type": "fertilizer",
+    "en_aliases": [
+      "compost",
+      "organic fertilizer"
+    ],
+    "bn_aliases": [
+      "জৈব সার",
+      "গোবর সার"
+    ]
+  },
+  {
+    "en": "disease",
+    "bn": "রোগ",
+    "type": "disease",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "pest",
+    "bn": "পোকা",
+    "type": "pest",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "weed",
+    "bn": "আগাছা",
+    "type": "weed",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "deficiency",
+    "bn": "অভাব",
+    "type": "symptom",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "pesticide",
+    "bn": "কীটনাশক",
+    "type": "chemical",
+    "en_aliases": [],
+    "bn_aliases": [
+      "বালাইনাশক"
+    ]
+  },
+  {
+    "en": "fertilizer",
+    "bn": "সার",
+    "type": "fertilizer",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "tiller",
+    "bn": "কুশি",
+    "type": "crop",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "weed control",
+    "bn": "আগাছা দমন",
+    "type": "weed",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "grass weed",
+    "bn": "ঘাস",
+    "type": "weed",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "panicle",
+    "bn": "শীষ",
+    "type": "crop",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "insect pests",
+    "bn": "পোকামাকড়",
+    "type": "pest",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "pesticide application",
+    "bn": "কীটনাশক প্রয়োগ",
+    "type": "chemical",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "herbicide",
+    "bn": "আগাছানাশক",
+    "type": "chemical",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "pest infestation",
+    "bn": "পোকা আক্রমণ",
+    "type": "pest",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "fungus",
+    "bn": "ছত্রাক",
+    "type": "disease",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "brown spot",
+    "bn": "বাদামি দাগ",
+    "type": "symptom",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "pest and disease",
+    "bn": "রোগবালাই",
+    "type": "disease",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "urea fertilizer",
+    "bn": "ইউরিয়া সার",
+    "type": "fertilizer",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "approved pesticide",
+    "bn": "অনুমোদিত কীটনাশক",
+    "type": "chemical",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "disease vector",
+    "bn": "রোগ বাহক",
+    "type": "disease",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "pest control",
+    "bn": "পোকা দমন",
+    "type": "pest",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "hispa beetle",
+    "bn": "পামরি পোকা",
+    "type": "pest",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "fungicide",
+    "bn": "ছত্রাকনাশক",
+    "type": "chemical",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "armyworm",
+    "bn": "লেদা পোকা",
+    "type": "pest",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "rice bug",
+    "bn": "গান্ধি পোকা",
+    "type": "pest",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "sulphur deficiency",
+    "bn": "গন্ধক অভাব",
+    "type": "symptom",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "rice disease",
+    "bn": "ধান রোগ",
+    "type": "disease",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "disease symptom",
+    "bn": "রোগ লক্ষণ",
+    "type": "symptom",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "granular pesticide",
+    "bn": "দানাদার কীটনাশক",
+    "type": "chemical",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "case worm",
+    "bn": "ছাত পোকা",
+    "type": "pest",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "zinc deficiency",
+    "bn": "দস্তা অভাব",
+    "type": "symptom",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "pest and disease complex",
+    "bn": "পোকামাকড় রোগবালাই",
+    "type": "pest",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "tiller count",
+    "bn": "কুশি সংখ্যা",
+    "type": "crop",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "tillering",
+    "bn": "কুশি গজানো",
+    "type": "crop",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "fertilizer efficiency",
+    "bn": "সার কার্যকারিতা",
+    "type": "fertilizer",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "green leafhopper",
+    "bn": "সবুজ পাতাফড়িং",
+    "type": "pest",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "sheath rot",
+    "bn": "খোল পচা",
+    "type": "disease",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "stem rot",
+    "bn": "কাণ্ড পচা",
+    "type": "disease",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "boro rice",
+    "bn": "বোরো",
+    "type": "crop",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "aman rice",
+    "bn": "আমন",
+    "type": "crop",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "aus rice",
+    "bn": "আউশ",
+    "type": "crop",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "zinc sulfate",
+    "bn": "জিংক সালফেট",
+    "type": "fertilizer",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "seedbed",
+    "bn": "বীজতলা",
+    "type": "crop",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "transplanting",
+    "bn": "চারা রোপণ",
+    "type": "agronomy",
+    "en_aliases": [],
+    "bn_aliases": [
+      "রোপণ"
+    ]
+  },
+  {
+    "en": "hectare",
+    "bn": "হেক্টর",
+    "type": "unit",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "bigha",
+    "bn": "বিঘা",
+    "type": "unit",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "yield",
+    "bn": "ফলন",
+    "type": "agronomy",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "kresek",
+    "bn": "ক্রেসেক",
+    "type": "symptom",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "ratoon",
+    "bn": "রেটুন",
+    "type": "agronomy",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "drain",
+    "bn": "নিষ্কাশন",
+    "type": "agronomy",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "irrigation",
+    "bn": "সেচ",
+    "type": "agronomy",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "sowing",
+    "bn": "বপন",
+    "type": "agronomy",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "harvesting",
+    "bn": "ফসল কাটা",
+    "type": "agronomy",
+    "en_aliases": [],
+    "bn_aliases": []
+  },
+  {
+    "en": "top dressing",
+    "bn": "উপরিপ্রয়োগ",
+    "type": "agronomy",
+    "en_aliases": [],
+    "bn_aliases": []
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "description": "Hand-written safety-critical agricultural advisory sentences that stress the three failure modes (terminology, dosage numbers, negation). Used for the motivating baseline diagnostic; a superset becomes part of the gold test set after Bengali post-editing.",
+  "sentences": [
+    {"id": "s01", "en": "Apply Tricyclazole at 0.6 gram per liter of water to control rice blast.", "stress": ["term", "number"]},
+    {"id": "s02", "en": "Do not drain the water from the field during the flowering stage.", "stress": ["negation"]},
+    {"id": "s03", "en": "Spray Imidacloprid at 0.5 ml per liter against brown planthopper.", "stress": ["term", "number"]},
+    {"id": "s04", "en": "Do not apply urea within 10 days before harvest.", "stress": ["negation", "number"]},
+    {"id": "s05", "en": "Mix 1.12 liter of the pesticide in 50 liter of water.", "stress": ["number"]},
+    {"id": "s06", "en": "Use neem oil if you do not want to use chemical pesticides.", "stress": ["negation", "term"]},
+    {"id": "s07", "en": "Late blight affects potato in cool and wet weather.", "stress": ["term"]},
+    {"id": "s08", "en": "Apply 250 kg urea, 150 kg TSP, and 100 kg MOP per hectare.", "stress": ["number", "term"]},
+    {"id": "s09", "en": "Never spray insecticide during the midday heat.", "stress": ["negation"]},
+    {"id": "s10", "en": "Drain the field two days before applying fertilizer.", "stress": ["number"]},
+    {"id": "s11", "en": "Bacterial blight causes yellow leaves and wilting in rice.", "stress": ["term"]},
+    {"id": "s12", "en": "Do not exceed 2 grams per liter, because a higher dose can burn the crop.", "stress": ["negation", "number"]}
+  ]
+}
