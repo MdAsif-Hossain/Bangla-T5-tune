@@ -88,7 +88,10 @@ def main() -> None:
         num_train_epochs=args.epochs, warmup_ratio=0.1, weight_decay=1e-4,
         logging_steps=50, save_strategy="epoch",
         eval_strategy="epoch" if eval_ds else "no",
-        predict_with_generate=True, fp16=torch.cuda.is_available(), report_to="none",
+        predict_with_generate=True, report_to="none",
+        # T5 is numerically unstable in fp16 (NaN loss). Use bf16 on Ampere+ GPUs,
+        # else full fp32 (e.g. on T4). Never fp16 here.
+        fp16=False, bf16=torch.cuda.is_available() and torch.cuda.is_bf16_supported(),
     )
     collator = DataCollatorForSeq2Seq(tok, model=model)
     _tr = dict(model=model, args=targs, train_dataset=train_ds,

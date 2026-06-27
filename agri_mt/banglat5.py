@@ -66,7 +66,8 @@ class BanglaT5Translator:
             with torch.no_grad():
                 gen = self.model.generate(
                     **enc, max_length=max_length, num_beams=num_beams,
-                    no_repeat_ngram_size=3, early_stopping=True,
+                    no_repeat_ngram_size=3, repetition_penalty=1.2,
+                    early_stopping=True,
                 )
             outputs.extend(self.tok.batch_decode(gen, skip_special_tokens=True))
 

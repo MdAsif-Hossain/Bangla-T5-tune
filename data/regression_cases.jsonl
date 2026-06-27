@@ -1,0 +1,5 @@
+{"name": "seedling-not-seed", "en_contains": "seedling mortality", "must_any": ["চারা"], "must_not": ["বীজের মৃত্যু", "বীজ মারা", "বীজের মড়ক"], "note": "h008: seedling (চারা) must not become বীজ (seed)"}
+{"name": "spore-not-seed", "en_contains": "Spore accumulation", "must_any": ["রেণু", "স্পোর"], "must_not": ["বীজের সঞ্চয়", "বীজ সঞ্চয়"], "note": "h018: spore (রেণু) must not become বীজ (seed)"}
+{"name": "toxicity-not-disparity", "en_contains": "toxicity", "must_any": ["বিষাক্ত"], "must_not": ["বিষমতা"], "note": "h005: toxicity (বিষাক্ততা) must not become বিষমতা (disparity)"}
+{"name": "stunting-not-translit", "en_contains": "Stunting of plant", "must_any": ["বৃদ্ধি ব্যাহত", "খর্ব", "বামন"], "must_not": ["স্টান্টিং"], "note": "h016: stunting should be translated, not transliterated to স্টান্টিং"}
+{"name": "broadcast-not-tvbroadcast", "en_contains": "broadcast or drum", "must_any": ["ছিটিয়ে", "ছিটানো"], "must_not": ["সম্প্রচার"], "note": "h028: broadcast seeding (ছিটিয়ে বপন) must not become সম্প্রচার (TV broadcast)"}
