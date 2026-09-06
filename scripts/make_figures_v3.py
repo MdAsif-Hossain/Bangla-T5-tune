@@ -75,7 +75,7 @@ save(fig, "fig_loss")
 # Shows: separate BT/distill paths, Bijoy recovery, LaBSE filter, splits
 fig, ax = plt.subplots(figsize=(9.0, 5.2))
 ax.axis("off")
-ax.set_xlim(0, 12)
+ax.set_xlim(0, 14.5)
 ax.set_ylim(0, 6.5)
 
 # Colour palette
@@ -87,7 +87,7 @@ C_GLOSS = ("#e3f2fd", "#1565c0")   # glossary (dark blue)
 C_EVAL  = ("#fff3e0", "#e65100")   # eval (deep orange)
 
 
-def box(x, y, w, h, text, fc="#eef5fb", ec="#2c7fb8", fontsize=9.5, bold_first=False):
+def box(x, y, w, h, text, fc="#eef5fb", ec="#2c7fb8", fontsize=9.5, fw="bold"):
     # drop shadow
     ax.add_patch(FancyBboxPatch((x + 0.06, y - 0.06), w, h,
                                 boxstyle="round,pad=0.02,rounding_size=0.08",
@@ -96,7 +96,7 @@ def box(x, y, w, h, text, fc="#eef5fb", ec="#2c7fb8", fontsize=9.5, bold_first=F
                                 boxstyle="round,pad=0.02,rounding_size=0.08",
                                 fc=fc, ec=ec, lw=1.6))
     ax.text(x + w / 2, y + h / 2, text, ha="center", va="center",
-            fontsize=fontsize, linespacing=1.3)
+            fontsize=fontsize, linespacing=1.3, fontweight=fw)
 
 
 def arrow(x1, y1, x2, y2, color="#444", lw=1.4):
@@ -105,77 +105,77 @@ def arrow(x1, y1, x2, y2, color="#444", lw=1.4):
                                  color=color, lw=lw))
 
 
-def label(x, y, text, fontsize=8, color="#555", ha="center", style="italic"):
-    ax.text(x, y, text, fontsize=fontsize, color=color, ha=ha, style=style)
+def label(x, y, text, fontsize=8, color="#555", ha="center", va="baseline", style="italic"):
+    ax.text(x, y, text, fontsize=fontsize, color=color, ha=ha, va=va, style=style)
 
 
 # ============ ROW 1 (top): Source documents ============
 # Bijoy PDFs (top-left)
-box(0.2, 5.0, 2.2, 0.9,
-    "$\\bf{Bijoy/SutonnyMJ}$\nPDFs (gov. docs)", *C_SRC)
+box(0.2, 5.0, 2.4, 0.9,
+    "Bijoy/SutonnyMJ\nPDFs (gov. docs)", *C_SRC)
 
 # Bijoy recovery step
-box(3.1, 5.0, 2.2, 0.9,
-    "$\\bf{Font{\\text -}aware}$\n$\\bf{recovery}$\n→ Unicode", *C_PROC, fontsize=8.5)
-arrow(2.4, 5.45, 3.1, 5.45)
-label(2.75, 5.75, "PyMuPDF +\nbijoy2unicode", fontsize=7.5)
+box(4.2, 5.0, 2.4, 0.9,
+    "Font-aware\nrecovery\n→ Unicode", *C_PROC, fontsize=8.5)
+arrow(2.6, 5.45, 4.2, 5.45)
+label(3.4, 5.55, "PyMuPDF +\nbijoy2unicode", fontsize=7.5, va="bottom")
 
 # Recovered Bengali sentences
-box(6.0, 5.0, 2.4, 0.9,
-    "2,408 Bengali\nsentences", *C_SRC)
-arrow(5.3, 5.45, 6.0, 5.45)
-label(5.65, 5.75, "98.4% purity", fontsize=7.5)
+box(8.2, 5.0, 2.4, 0.9,
+    "2,408 Bengali\nsentences", *C_SRC, fw="normal")
+arrow(6.6, 5.45, 8.2, 5.45)
+label(7.4, 5.55, "98.4% purity", fontsize=7.5, va="bottom")
 
 # ============ ROW 2 (middle): Translation paths ============
 # Back-translation path (BN→EN via NLLB)
-box(6.0, 3.6, 2.4, 0.9,
-    "$\\bf{Back{\\text -}translate}$\nBN → EN (NLLB)", *C_PROC)
-arrow(7.2, 5.0, 7.2, 4.5)
-label(7.55, 4.7, "BN→EN", fontsize=7.5, ha="left")
+box(8.2, 3.6, 2.4, 0.9,
+    "Back-translate\nBN → EN (NLLB)", *C_PROC)
+arrow(9.4, 5.0, 9.4, 4.5)
+label(9.55, 4.75, "BN→EN", fontsize=7.5, ha="left", va="center")
 
 # English agronomy (left side, row 2)
-box(0.2, 3.6, 2.2, 0.9,
-    "$\\bf{English\\ agronomy}$\nFAO / IRRI\n(1,062 sent.)", *C_SRC)
+box(0.2, 3.6, 2.4, 0.9,
+    "English agronomy\nFAO / IRRI\n(1,062 sent.)", *C_SRC)
 
 # Forward distillation path (EN→BN via NLLB)
-box(3.1, 3.6, 2.2, 0.9,
-    "$\\bf{Distillation}$\nEN → BN (NLLB)", *C_PROC)
-arrow(2.4, 4.05, 3.1, 4.05)
-label(2.75, 3.4, "EN→BN", fontsize=7.5)
+box(4.2, 3.6, 2.4, 0.9,
+    "Distillation\nEN → BN (NLLB)", *C_PROC)
+arrow(2.6, 4.05, 4.2, 4.05)
+label(3.4, 4.15, "EN→BN", fontsize=7.5, va="bottom")
 
 # ============ ROW 3: Filtering & corpus ============
 # LaBSE filter
-box(3.5, 2.0, 2.6, 0.9,
-    "$\\bf{LaBSE\\ filter}$\n(cosine ≥ 0.70)", *C_PROC)
+box(4.6, 2.0, 2.6, 0.9,
+    "LaBSE filter\n(cosine ≥ 0.70)", *C_PROC)
 # Arrows from BT and distill into filter
-arrow(4.2, 3.6, 4.6, 2.9)   # distill → filter
-arrow(7.2, 3.6, 5.4, 2.9)   # BT → filter
+arrow(5.4, 3.6, 5.4, 2.9)   # distill → filter
+arrow(9.4, 3.6, 7.2, 2.9)   # BT → filter
 
 # AgriEnBn corpus box
-box(7.0, 2.0, 2.5, 0.9,
-    "$\\bf{AgriEnBn}$\n3,034 pairs", *C_CORP, fontsize=10)
-arrow(6.1, 2.45, 7.0, 2.45)
+box(8.2, 2.0, 2.6, 0.9,
+    "AgriEnBn\n3,034 pairs", *C_CORP, fontsize=10)
+arrow(7.2, 2.45, 8.2, 2.45)
 
 # Split labels beneath the corpus box
-label(8.25, 1.75, "Train: 2,882  |  Dev: 152  |  Test: 198 (gold)", fontsize=7.5, color="#666")
+label(9.5, 1.75, "Train: 2,882  |  Dev: 152  |  Test: 198 (gold)", fontsize=7.5, color="#666", va="top")
 
 # ============ ROW 4 (bottom): Training & model ============
 # LoRA fine-tune
-box(7.0, 0.4, 2.0, 0.9,
-    "$\\bf{LoRA}$\nfine-tune\n(r=16, q/v)", *C_PROC, fontsize=9)
-arrow(8.0, 2.0, 8.0, 1.3)
+box(8.5, 0.4, 2.0, 0.9,
+    "LoRA\nfine-tune\n(r=16, q/v)", *C_PROC, fontsize=9)
+arrow(9.5, 2.0, 9.5, 1.3)
 
 # AgriBanglaT5 output
-box(9.6, 0.4, 2.2, 0.9,
-    "$\\bf{AgriBanglaT5}$\n(247M)", *C_MODEL, fontsize=10)
-arrow(9.0, 0.85, 9.6, 0.85)
+box(11.3, 0.4, 2.2, 0.9,
+    "AgriBanglaT5\n(247M)", *C_MODEL, fontsize=10)
+arrow(10.5, 0.85, 11.3, 0.85)
 
 # Glossary hints
-box(3.5, 0.4, 2.6, 0.9,
-    "$\\bf{Glossary}$ (82 terms)\nEN ↔ BN", *C_GLOSS)
-arrow(6.1, 0.85, 7.0, 0.85)
-label(6.55, 1.1, "⟦hints⟧", fontsize=8, color="#1565c0")
+box(4.6, 0.4, 2.6, 0.9,
+    "Glossary (82 terms)\nEN ↔ BN", *C_GLOSS)
+arrow(7.2, 0.85, 8.5, 0.85)
+label(7.85, 1.0, "⟦hints⟧", fontsize=8, color="#1565c0", va="bottom")
 
 save(fig, "fig_pipeline")
 
-print(f"\nAll figures → {FIG.resolve()}")
+print(f"\nAll figures -> {FIG.resolve()}")
