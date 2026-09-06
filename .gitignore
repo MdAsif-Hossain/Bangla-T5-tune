@@ -15,6 +15,9 @@ release/
 outputs/
 agribanglat5_kaggle.zip
 
+# ─── Personal study notes ───
+study/
+
 # ─── Environments / caches ───
 .venv/
 .venv_comet/
